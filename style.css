@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  width: 1400px;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%)
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 55px;
+  
+}
+a {
+  color: #1F1534;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+ul li a {
+  opacity: 0.5;
+}
+ul {
+  
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  padding: 0;
+  margin: 0;
+
+  font-family: 'Mulish', sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: normal;
+  font-size: 49px;
+  line-height: 56px;
+
+  color: #1F1534;
+}
+h1 span {
+  font-weight: bold;
+  color: #89C5CC;
+}
+
+section p {
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+
+  margin: 40px 0;
+}
+
+p strong {
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  line-height: 28px;
+
+  margin-top: 80px;
+}
+footer a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+button {
+  color: #FFFFFF;
+  text-transform: uppercase; /* deixa as letras maiusculas */
+  font-family: 'Open Sans', sans-serif;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  
+  cursor: pointer; /* habilita a maozinha assim que passar o mouse encima */
+
+  border-radius: 4px;
+  padding: 14px 32px 15px 32px;
+  border: 0;
+  background: #69B99D;
+  gap: 10px;
+}
+
+button:hover {
+  background: #3a9475;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+
+
+
